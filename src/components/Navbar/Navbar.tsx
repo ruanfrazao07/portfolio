@@ -3,11 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
 const Navbar = () => {
     return (
       <header>
-        <nav className="p-6">
+        <nav className="navbackground flex p- justify-between">
             <Link href="/">
                   <Image src="assets/logo.svg" width={50} height={50} alt="Logo Frazão"/>
             </Link>

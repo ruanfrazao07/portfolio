@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import BackgroundStars from "@/components/Backgroundstars/BackgroundStars"
 
 const OpenSans = Open_Sans({
   subsets:["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={OpenSans.className}>
           <Navbar />
+          <BackgroundStars />
         {children}
       </body>
     </html>

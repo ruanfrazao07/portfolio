@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #310062;
+  --foreground: #7d60b6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #310062;
+    --foreground: #7d60b6;
   }
 }
 
@@ -17,4 +17,7 @@ body {
 }
 
 /*NavBar*/
+.navbackground {
+  background-color: rgb(63, 63, 63);
+}
 
